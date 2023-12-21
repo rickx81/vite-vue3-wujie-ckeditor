@@ -10,6 +10,7 @@ const require = createRequire( import.meta.url );
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vite-vue3-wujie-ckeditor/',
   plugins: [
     vue(),
     vueJsx(),
