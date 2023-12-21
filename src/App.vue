@@ -23,7 +23,7 @@ const wujieRef = ref<any>(null)
 
 const mode = ref('create')
 const url = computed(() => {
-  return `/ckeditor/sample/index.html?mode=${mode.value}`
+  return `${import.meta.env.BASE_URL}ckeditor/sample/index.html?mode=${mode.value}`
 })
 
 const changeQuery = async () => {
